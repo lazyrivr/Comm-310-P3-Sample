@@ -12,26 +12,26 @@ As described at the beginning of the semester, the third project we will do this
 # Requirements
 
 1. HTML Requirements:
-* lint-free HTML5
-* home (basically the home or index page of the project)
-* people (an area that will keep interesting information about each member of our class)
-* notes (obviously, where you will keep class notes)
-* homework (links to every homework assignment and in-class exercise we ever do)
-* projects (links to all of the projects)
-* about (a single page explaining the core of Comm 310 from your unique persepective - don't copy and paste this from anywhere. Write it and re-write it yourself over the course of the semester.)
+    * lint-free HTML5
+    * home (basically the home or index page of the project)
+    * people (an area that will keep interesting information about each member of our class)
+    * notes (obviously, where you will keep class notes)
+    * homework (links to every homework assignment and in-class exercise we ever do)
+    * projects (links to all of the projects)
+    * about (a single page explaining the core of Comm 310 from your unique persepective - don't copy and paste this from anywhere. Write it and re-write it yourself over the course of the semester.)
 2. PHP Requirements:
-* Modular and site-universal nav on every page
-* Modular header
-* Modular footer
+    * Modular and site-universal nav on every page
+    * Modular header
+    * Modular footer
 3. CSS Requirements:
-* Vision/Mockup/Design/Goal Document
-* Consistent look & feel on every page. Should not look the same as your restaurant project.
-* Professional
-* Attention-to-details design
-* Well-organized, user-friendly, easy to find information
+    * Vision/Mockup/Design/Goal Document
+    * Consistent look & feel on every page. Should not look the same as your restaurant project.
+    * Professional
+    * Attention-to-details design
+    * Well-organized, user-friendly, easy to find information
 4. FTP Requirements:
-* Site homepage must be live at yourdomain/310/
-* All other pages must be findable/linked to homepage
+    * Site homepage must be live at yourdomain/310/
+    * All other pages must be findable/linked to homepage
 
 # Disclaimers
 
