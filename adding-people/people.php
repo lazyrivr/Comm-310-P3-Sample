@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<title>People | Andy Bell's Comm 310 Experience</title>
-	<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-	<header>
-		<nav>
-			<h1 class="logo">Andy Bell's Comm 310 Experience</h1>
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li class="current">People</li>
-				<li><a href="notes.php">Notes</a></li>
-				<li><a href="homework.php">Homework</a></li>
-				<li><a href="projects.php">Projects</a></li>
-				<li><a href="about.php">About</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
+<?php
+
+	$pagetitle="People";
+	include("header.php");
+
+?>
 		<h1>Meet my (imaginary) classmates!</h1>
 		<nav>
 			<ul>
@@ -34,8 +18,8 @@
 		<section class="profile" id="cordelldurand">
 		<!--content goes here-->
 		</section>
-	</main>
-	<footer>
-		<small>&copy; 2013 Andy Bell</small>
-	</footer>
-</body>
+<?php
+
+	include("footer.php");
+
+?>
