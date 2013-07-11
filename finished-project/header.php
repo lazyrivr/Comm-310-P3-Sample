@@ -5,7 +5,7 @@
 	<title><?php echo $pagetitle; ?> | Andy Bell's Comm 310 Experience</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="<?php echo strtolower($pagetitle); ?>-page">
 	<header>
 		<nav>
 			<h1 class="logo">Andy Bell's Comm 310 Experience</h1>

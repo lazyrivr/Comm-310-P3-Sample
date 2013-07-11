@@ -5,7 +5,7 @@
 
 ?>
 		<h1>Meet my (imaginary) classmates!</h1>
-		<nav>
+		<nav class="people-nav">
 			<ul>
 				<?php
 
@@ -21,7 +21,7 @@
 
 			include("data.php");
 			foreach($students as $student){
-				echo "<section id='$student[0]$student[1]'>";
+				echo "<section class='profile' id='$student[0]$student[1]'>";
 					echo "<small style='color:red;'>NEW SECTION</small>";
 					echo "<ul class='profile-banner'>";
 						echo "<li><img src='http://$student[25]/310/images/$student[26]' alt='$student[29]' /></li>";
@@ -51,10 +51,10 @@
 							echo "<li class='website'><a href='http://$student[25]'>Website</a></li>";
 						}
 					echo "</ul>";
-					echo "<img src='http://$student[25]/310/$student[0]$student[1].jpg' alt='".ucfirst($student[0])." ".ucfirst($student[1])."' />";
+					echo "<img src='http://$student[25]/310/$student[0]$student[1].jpg' class='profile-pic' alt='".ucfirst($student[0])." ".ucfirst($student[1])."' />";
 					echo "<h1>".ucfirst($student[0])." ".ucfirst($student[1])."</h1>";
 					echo "<h2>$student[2]</h2>";
-					echo "<aside class='topten'>";
+					echo "<aside class='profile-topten'>";
 						echo "<h3>$student[6]</h3>";
 						echo "<ul>";
 							echo "<li>$student[7]</li>";
