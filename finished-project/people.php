@@ -22,7 +22,6 @@
 			include("data.php");
 			foreach($students as $student){
 				echo "<section class='profile' id='$student[0]$student[1]'>";
-					echo "<small style='color:red;'>NEW SECTION</small>";
 					echo "<ul class='profile-banner'>";
 						echo "<li><img src='http://$student[25]/310/images/$student[26]' alt='$student[29]' /></li>";
 						echo "<li><img src='http://$student[25]/310/images/$student[27]' alt='$student[30]' /></li>";
@@ -51,7 +50,7 @@
 							echo "<li class='website'><a href='http://$student[25]'>Website</a></li>";
 						}
 					echo "</ul>";
-					echo "<img src='http://$student[25]/310/$student[0]$student[1].jpg' class='profile-pic' alt='".ucfirst($student[0])." ".ucfirst($student[1])."' />";
+					echo "<img src='http://$student[25]/310/images/$student[0]$student[1].jpg' class='profile-pic' alt='".ucfirst($student[0])." ".ucfirst($student[1])."' />";
 					echo "<h1>".ucfirst($student[0])." ".ucfirst($student[1])."</h1>";
 					echo "<h2>$student[2]</h2>";
 					echo "<aside class='profile-topten'>";

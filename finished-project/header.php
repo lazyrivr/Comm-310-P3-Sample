@@ -4,6 +4,20 @@
 	<meta charset="UTF-8" />
 	<title><?php echo $pagetitle; ?> | Andy Bell's Comm 310 Experience</title>
 	<link rel="stylesheet" href="style.css" />
+	<?php
+
+		if($pagetitle=="People"){
+			echo "<style>";
+			include("data.php");
+			foreach ($students as $student) {
+				echo "#$student[0]$student[1]{
+						background-color: rgb($student[32],$student[33],$student[34]);
+					}";
+			}
+			echo "</style>";
+		}
+
+	?>
 </head>
 <body class="<?php echo strtolower($pagetitle); ?>-page">
 	<header>
